@@ -36,3 +36,23 @@ git commit -m "comentario"
 
 El parametro -m permite escribir un mensaje que describa el cambio.
 
+
+---------------------------
+
+5- Conectarnos con el repositorio remoto:
+
+git remote add origin https://github.com/SantiagoRiveros/ibec-git.git
+
+Esto va a conectarlos con el repositorio de github.
+
+---------------------------
+
+6- Preparamos la rama:
+
+git branch -M main
+
+-------------------------------
+
+7- enviamos los cambios al repositorio remoto:
+
+git push -u origin main
