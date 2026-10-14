@@ -1,0 +1,54 @@
+# Tarea: Mi primer repositorio con Git
+
+**Objetivo:** practicar los comandos básicos de Git, registrar cambios y utilizar ramas.
+
+## Consigna
+
+Crear un repositorio local llamado `tarea-git` y realizar las siguientes actividades.
+
+### Parte 1: Crear el repositorio
+
+1. Crear una carpeta llamada `tarea-git`.
+2. Ingresar a la carpeta desde la terminal.
+3. Inicializar el repositorio con `git init`.
+4. Comprobar su estado con `git status`.
+
+### Parte 2: Crear y registrar archivos
+
+1. Crear un archivo `README.md` que contenga:
+   - Nombre y apellido.
+   - Una breve presentación personal.
+   - Tres tecnologías que te gustaría aprender.
+2. Preparar los cambios y crear un commit con el mensaje `Agrega README inicial`.
+3. Crear un archivo `objetivos.txt` con tres objetivos personales relacionados con la programación.
+4. Registrar los cambios con un nuevo commit.
+5. Modificar el README y agregar una sección llamada "Mis intereses".
+6. Crear un tercer commit con un mensaje descriptivo.
+
+### Parte 3: Consultar el historial
+
+Ejecutar los siguientes comandos:
+
+- `git status`
+- `git log --oneline`
+- `git diff`
+
+Observar qué información muestra cada uno.
+
+### Parte 4: Trabajar con ramas
+
+1. Crear una rama llamada `feature/tecnologias`.
+2. Cambiar a esa rama.
+3. Crear un archivo `tecnologias.txt` con cinco tecnologías de programación.
+4. Registrar el archivo con un commit.
+5. Volver a la rama principal (`main` o `master`, según corresponda).
+6. Integrar los cambios utilizando `git merge`.
+
+## Entrega
+
+Presentar:
+
+- Los archivos creados.
+- El historial de commits.
+- Una captura de pantalla de la terminal mostrando el resultado de `git log --oneline`.
+- Una breve explicación, con tus palabras, de para qué sirven `git add`, `git commit` y `git merge`.

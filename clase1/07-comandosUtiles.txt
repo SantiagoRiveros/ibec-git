@@ -1,0 +1,34 @@
+COMANDOS BÁSICOS DE GIT
+
+git --version
+Comprueba la instalación de Git.
+
+git config
+Configura Git.
+
+git init
+Inicializa un repositorio.
+
+git status
+Muestra el estado de los archivos.
+
+git add
+Prepara cambios para el próximo commit.
+
+git commit -m "mensaje"
+Registra un commit con un mensaje descriptivo.
+
+git diff
+Muestra las diferencias que todavía no fueron preparadas para el commit.
+
+git log --oneline
+Muestra el historial de commits resumido.
+
+git branch
+Lista las ramas existentes.
+
+git switch nombre-rama
+Cambia de rama.
+
+git merge nombre-rama
+Integra los cambios de una rama en la rama actual.
