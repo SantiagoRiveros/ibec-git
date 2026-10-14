@@ -1,0 +1,3 @@
+Para "clonar" un repositorio, y tenerlo a mano, ponemos:
+
+git clone URL_DEL_REPOSITORIO
