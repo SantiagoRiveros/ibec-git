@@ -1,0 +1,40 @@
+Paso 1:
+
+Instalar git, la pagina oficial es:
+
+https://git-scm.com/
+
+En windows pueden instalar git con las opciones predeterminadas. Git bash incluye una terminal
+que permite ejecutar los comandos que vamos a utilizar.
+
+Paso 2:
+
+Comprobar la instalacion:
+
+podemos tocar Win + R 
+accedemos a cmd 
+
+en cmd usamos -> git --version
+
+Deberia aparecer algo asi:
+
+git version 2.x.x
+
+
+Paso 3: Configurar el nombre y el correo.
+
+Usando las credenciales de github, hacemos esto, reemplazando por nuestros valores:
+
+git config --global user.name "Nombre Apellido"
+
+Por ejemplo, el mio es SantiagoRiveros
+
+
+git config --global user.email "correo@ejemplo.com"
+
+Por ejemplo,el mio es santiagoriverosjasis@gmail.com
+
+
+Para revisar la configuracion:
+git config --global --list
+

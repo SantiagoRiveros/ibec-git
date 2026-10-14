@@ -1,0 +1,38 @@
+1- Debemos inicializar el repositorio local:
+
+git init
+
+IMPORTANTE -> VERIFIQUEN HACERLO EN LA TERMINAL EN LA CARPETA RAIZ DEL PROYECTO
+
+NO INICIALIZEN VARIAS VECES EL PROYECTO, SEAN CUIDADOSOS
+
+Esto, crea un repositorio Git local. A partir de este momento git puede llevar el historial de cambios
+de esa carpeta 
+
+---------------------------
+
+2. Revisar el estado:
+
+git status
+
+------------------------------
+
+
+3- Preparar los cambios:
+
+git add .
+
+(el punto, indica "TODOS" pero bien podriamos decirle una sola carpeta/archivo)
+
+git add prepara los cambios que queremos incluir en el proximo commit
+
+Es importante entender que git add no crea un commit. Solamente prepara el contenido
+
+------------------------------------
+
+4- Crear el primer commit:
+
+git commit -m "comentario"
+
+El parametro -m permite escribir un mensaje que describa el cambio.
+

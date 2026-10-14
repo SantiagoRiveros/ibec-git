@@ -1,0 +1,31 @@
+¿Que es git?
+
+Es un sistema de control de versiones. Permite registrar los cambios que hacemos en los 
+archivos de un proyecto a lo largo del tiempo.
+
+Imaginemos que estamos desarrollando una pagina web. Durante el trabajo podriamo guardar
+archivos como estos:
+
+proyecto-final/
+├── index.html
+├── index-v2.html
+├── index-final.html
+├── index-final-ahora-si.html
+└── index-final-definitivo.html
+
+Esto es incomodo, porque no sabemos con seguridad cual es la ultima version correcta.
+
+Con Git podemos mantener los archivos ordenados y registrar diferentes versiones del proyecto.
+
+Conceptos fundamentales:
+-Repositorio: Proyecto cuyo historial de cambios administra git.
+-Commit: Registro de un conjunto de cambios.
+-Rama (branch): Linea de trabajo independiente.
+-Merge: Integracion de los cambios de una rama en otra.
+-Repositorio remoto: copia del repositorio alojada en otro lugar, por ejemplo, github.
+-Git: herramienta de control de versiones.
+-github: plataforma que permite alojar repositorios Git y colaborar con otras personas.
+
+Aclaracion importante: Git y github no son lo mismo. Git puedefuncionar completamente sin
+conexion a internet.
+
