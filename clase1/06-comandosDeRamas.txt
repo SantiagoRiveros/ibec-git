@@ -1,0 +1,13 @@
+Ver las ramas existentes:
+
+git branch
+
+
+Crear una rama:
+
+git branch feature/contacto
+
+
+cambiar a una rama:
+
+git checkout feature/contacto
